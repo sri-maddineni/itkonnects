@@ -1,435 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>iTKonnects</title>
 
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-    <link rel="icon" type="image/x-icon" href="favicon.png" />
-    <link rel="apple-touch-icon" href="favicon.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iTKonnects</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+  <link rel="icon" type="image/x-icon" href="favicon.png" />
+  <link rel="apple-touch-icon" href="favicon.png" />
 
-    <style>
-      .dropdown:hover .dropdown-menu {
-        display: block;
-      }
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 
-      .dropdown-item:hover {
-        background-color: rgba(0, 0, 0, 0.255);
-      }
+  <style>
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
 
-      #demo {
-        width: 80%;
-        height: 50%;
-        height: 50%;
-        margin: auto;
-        padding: 20px;
-      }
+    .dropdown-item:hover {
+      background-color: rgba(0, 0, 0, 0.255);
+    }
 
-      .card {
-        margin: 20px;
-        padding: 10px;
-      }
+    #demo {
+      width: 80%;
+      height: 50%;
+      height: 50%;
+      margin: auto;
+      padding: 20px;
+    }
 
-      .dropdown:hover .dropdown-menu {
-        display: block;
-      }
+    .card {
+      margin: 20px;
+      padding: 10px;
+    }
 
-      #demo {
-        width: 80%;
-        height: 50%;
-        margin: auto;
-        padding: 20px;
-      }
-    </style>
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
 
-    <script>
-      //background-color:rgba(222, 184, 135, 0.825);
-    </script>
-  </head>
-  <body>
-    <header class="bg-dark text-white text-center py-4">
-      <h1 class="mt-3">iTKonnects</h1>
-    </header>
+    #demo {
+      width: 80%;
+      height: 50%;
+      margin: auto;
+      padding: 20px;
+    }
+  </style>
 
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-dark"
-      style="--bs-bg-opacity: 0.8"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand mx-3 text-warning" href="index.html">Home</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navi"
-          aria-controls="navi"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navi">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link text-white p-3 disabled"
-                href="#"
-                data-bs-toggle="dropdown"
-              >
-                Apps
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="https://play.google.com/store/apps/details?id=com.iTKonnects.becfrag"
-                    target="_blank"
-                  >
-                    BEC Studo
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="https://play.google.com/store/apps/details?id=com.iTKonnects.jotit"
-                    target="_blank"
-                  >
-                    JOT IT
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="https://play.google.com/store/apps/details?id=com.iTKonnects.BECConfessions"
-                    target="_blank"
-                  >
-                    BEC Confessions
-                  </a>
-                </li>
-              </ul>
-            </li>
+  <script>
+    //background-color:rgba(222, 184, 135, 0.825);
+  </script>
+</head>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link text-white p-3"
-                href="#"
-                data-bs-toggle="dropdown"
-              >
-                Websites
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="https://kisanraj.netlify.app"
-                    target="_blank"
-                  >
-                    KisanRaj
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="https://www.becstudo.itkonnects.com"
-                    target="_blank"
-                  >
-                    BEC Studo
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="https://www.sriharimaddineni.itkonnects.com"
-                    target="_blank"
-                    >My Portfolio
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="https://www.gitrepos.itkonnects.com"
-                    target="_blank"
-                  >
-                    GitRepos
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a
-                class="nav-link text-white p-3"
-                href="https://www.becstudo.itkonnects.com"
-                target="_blank"
-              >
-                BEC Studo
-              </a>
-            </li>
-          </ul>
-          <ul class="navbar-nav p-2">
-            <li class="nav-item dropdown active">
-              <a
-                class="nav-link me-auto text-white p-2 disabled"
-                href="#"
-                data-bs-toggle="dropdown"
-                >About</a
-              >
-              <ul class="dropdown-menu">
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="https://www.sriharimaddineni.itkonnects.com"
-                    target="_blank"
-                    >Developer</a
-                  >
-                </li>
-                <li><a class="dropdown-item" href="#">iTKonnects</a></li>
-              </ul>
-            </li>
-          </ul>
-          <ul class="navbar-nav p-2">
-            <li class="nav-item dropdown active">
-              <a
-                class="nav-link me-auto text-white p-2"
-                href="html/contact.html"
-                >Contact Us</a
-              >
-            </li>
-          </ul>
+<body>
+  <header class="bg-dark text-white text-center py-4">
+    <h1 class="mt-3">iTKonnects</h1>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="--bs-bg-opacity: 0.8">
+    <div class="container-fluid"><a class="navbar-brand mx-3 text-warning" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navi" aria-controls="navi"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navi">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown"><a class="nav-link text-white p-3 disabled" href="#"
+              data-bs-toggle="dropdown">Apps</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.iTKonnects.becfrag"
+                  target="_blank">
+                  BEC Studo
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.iTKonnects.jotit"
+                  target="_blank">
+                  JOT IT
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item"
+                  href="https://play.google.com/store/apps/details?id=com.iTKonnects.BECConfessions" target="_blank">
+                  BEC Confessions
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown"><a class="nav-link text-white p-3" href="#" data-bs-toggle="dropdown">
+              Websites
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="https://kisanraj.netlify.app" target="_blank">
+                  KisanRaj
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://www.becstudo.itkonnects.com" target="_blank">
+                  BEC Studo
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://www.sriharimaddineni.itkonnects.com" target="_blank">My Portfolio
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://tasknet.netlify.app/" target="_blank">
+                  Tasknet
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://www.gitrepos.itkonnects.com" target="_blank">
+                  GitRepos
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li><a class="nav-link text-white p-3" href="https://www.becstudo.itkonnects.com" target="_blank">
+              BEC Studo
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav p-2">
+          <li class="nav-item dropdown active"><a class="nav-link me-auto text-white p-2 disabled" href="#"
+              data-bs-toggle="dropdown">About</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="https://www.sriharimaddineni.itkonnects.com"
+                  target="_blank">Developer</a>
+              </li>
+              <a class="dropdown-item" href="#">iTKonnects</a>
+          </li>
+        </ul>
+        </li>
+        </ul>
+        <ul class="navbar-nav p-2">
+          <li class="nav-item dropdown active"><a class="nav-link me-auto text-white p-2"
+              href="html/contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- card views of projects one by one -->
+  <div class="grid m-3">
+    <div class="row mx-auto">
+      <div class="card shadow-lg col-lg-3 col-md-12 col-sm-10 mx-auto">
+        <div class="card-header bg-success container-fluid">
+          <p class="h4">BEC Studo</p>
+        </div>
+        <img
+          src="https://play-lh.googleusercontent.com/GB1_i_I46wgNtzwITnpPNMyU6EW_O7giINmLnIzRYJN6A9bdqxgbJJbRGIkCrKsIBng=w240-h480-rw"
+          class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Android Application</h5>
+          <p class="card-text">
+            For the students of Bapatla Engineering College
+          </p>
+          <a href="https://play.google.com/store/apps/details?id=com.iTKonnects.becfrag" class="btn btn-primary">View in
+            Play store</a>
         </div>
       </div>
-    </nav>
 
-    <!-- card views of projects one by one -->
-    <div class="grid m-3">
-      <div class="row mx-auto">
-        <div class="card shadow-lg col-lg-3 col-md-12 col-sm-10 mx-auto">
-          <div class="card-header bg-success container-fluid">
-            <p class="h4">BEC Studo</p>
-          </div>
-          <img
-            src="https://play-lh.googleusercontent.com/GB1_i_I46wgNtzwITnpPNMyU6EW_O7giINmLnIzRYJN6A9bdqxgbJJbRGIkCrKsIBng=w240-h480-rw"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Android Application</h5>
-            <p class="card-text">
-              For the students of Bapatla Engineering College
-            </p>
-            <a
-              href="https://play.google.com/store/apps/details?id=com.iTKonnects.becfrag"
-              class="btn btn-primary"
-              >View in Play store</a
-            >
-          </div>
+      <div class="card shadow-lg col-lg-3 col-md-12 col-sm-10 mx-auto">
+        <div class="card-header bg-success container-fluid">
+          <p class="h4">JOT IT</p>
         </div>
-
-        <div class="card shadow-lg col-lg-3 col-md-12 col-sm-10 mx-auto">
-          <div class="card-header bg-success container-fluid">
-            <p class="h4">JOT IT</p>
-          </div>
-          <img
-            src="https://play-lh.googleusercontent.com/QwcqPlI5fphrWK08L7sNGiZrOiw4gyX_eZ6MS1kTC7Jjgav2RZC-Bg9fw6P5P5dpU2E=w240-h480-rw"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Android Application</h5>
-            <p class="card-text">
-              To jot down the daily events, memories, records,notes or journal
-              along with
-            </p>
-            <a
-              href="https://play.google.com/store/apps/details?id=com.iTKonnects.jotit"
-              target="_blank"
-              class="btn btn-primary"
-              >View in play store</a
-            >
-          </div>
+        <img
+          src="https://play-lh.googleusercontent.com/QwcqPlI5fphrWK08L7sNGiZrOiw4gyX_eZ6MS1kTC7Jjgav2RZC-Bg9fw6P5P5dpU2E=w240-h480-rw"
+          class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Android Application</h5>
+          <p class="card-text">
+            To jot down the daily events, memories, records,notes or journal
+            along with
+          </p>
+          <a href="https://play.google.com/store/apps/details?id=com.iTKonnects.jotit" target="_blank"
+            class="btn btn-primary">View in play store</a>
         </div>
+      </div>
 
-        <div class="card shadow-lg col-lg-3 col-md-12 col-sm-10 mx-auto">
-          <div class="card-header bg-success container-fluid">
-            <p class="h4">BEC Confessions</p>
-          </div>
-          <img
-            src="images/confession.png"
-            class="card-img-top img-fluid"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Android Application</h5>
-            <p class="card-text">
-              Are you an introvert? Express your feelings in BEC Confessions
-              today!
-            </p>
-            <a
-              href="https://play.google.com/store/apps/details?id=com.iTKonnects.BECConfessions"
-              target="_blank"
-              class="btn btn-primary"
-              >View in Play store</a
-            >
-          </div>
+      <div class="card shadow-lg col-lg-3 col-md-12 col-sm-10 mx-auto">
+        <div class="card-header bg-success container-fluid">
+          <p class="h4">BEC Confessions</p>
+        </div>
+        <img src="images/confession.png" class="card-img-top img-fluid" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Android Application</h5>
+          <p class="card-text">
+            Are you an introvert? Express your feelings in BEC Confessions
+            today!
+          </p>
+          <a href="https://play.google.com/store/apps/details?id=com.iTKonnects.BECConfessions" target="_blank"
+            class="btn btn-primary">View in Play store</a>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Footer -->
-    <footer class="text-center text-lg-start bg-light text-muted">
-      <!-- Section: Social media -->
-      <section
-        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-      >
-        <!-- Left -->
-        <div class="me-5 d-none d-lg-block">
-          <span>Get connected with us on social networks:</span>
-        </div>
-        <!-- Left -->
-
-        <!-- Right -->
-        <div>
-          <a
-            href="https://www.itkonnects.com"
-            target="_blank"
-            class="me-4 text-danger"
-            style="text-decoration: none"
-          >
-            <i class="fa fa-google me-3 fa-2x"></i>
-          </a>
-          <a href="" class="me-4 text-danger" style="text-decoration: none">
-            <i class="fa fa-instagram me-3 fa-2x"></i>
-          </a>
-          <a href="" class="me-4 text-danger" style="text-decoration: none">
-            <i class="fa fa-linkedin me-3 fa-2x"></i>
-          </a>
-          <a href="" class="me-4 text-danger" style="text-decoration: none">
-            <i class="fa fa-github me-3 fa-2x"></i>
-          </a>
-        </div>
-        <!-- Right -->
-      </section>
-      <!-- Section: Social media -->
-
-      <!-- Section: Links  -->
-      <section class="">
-        <div class="container text-center text-md-start mt-5">
-          <!-- Grid row -->
-          <div class="row mt-3">
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <!-- Content -->
-              <a
-                href="https://www.itkonnects.com"
-                target="_blank"
-                class="active fw-bold mb-4"
-              >
-                <i class="fas fa-gem me-3"></i>iTKonnects
-              </a>
-              <p>
-                A service oriented non-profit organisation to make it easier
-                connecting with technology
-              </p>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">Projects</h6>
-              <p>
-                <a
-                  style="text-decoration: none"
-                  href="https://kisanraj.netlify.app"
-                  target="_blank"
-                  class="text-reset"
-                  >KisanRaj (A website)</a
-                >
-              </p>
-              <p>
-                <a
-                  style="text-decoration: none"
-                  href="https://play.google.com/store/apps/details?id=com.iTKonnects.becfrag"
-                  target="_blank"
-                  class="text-reset"
-                  >BEC Studo (Android App)</a
-                >
-              </p>
-              <p>
-                <a
-                  style="text-decoration: none"
-                  href="https://www.becstudo.itkonnects.com"
-                  target="_blank"
-                  class="text-reset"
-                  >BEC Studo (Website)</a
-                >
-              </p>
-              <p>
-                <a
-                  style="text-decoration: none"
-                  href="html/becconfessions.html"
-                  class="text-reset"
-                  >BEC Confessions(App)</a
-                >
-              </p>
-              <p>
-                <a
-                  style="text-decoration: none"
-                  href="https://play.google.com/store/apps/details?id=com.iTKonnects.jotit"
-                  target="_blank"
-                  class="text-reset"
-                  >JOT IT (Android App)</a
-                >
-              </p>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-              <p><i class="fa fa-home me-3"></i> Bapatla, 522102, A.P</p>
-              <p>
-                <i class="fa fa-envelope me-3"></i>
-                itkonnects@gmail.com
-              </p>
-              <!-- <p><i class="fa fa-phone me-3"></i> +91 63042 14514</p> -->
-            </div>
-            <!-- Grid column -->
-          </div>
-          <!-- Grid row -->
-        </div>
-      </section>
-      <!-- Section: Links  -->
-
-      <!-- Copyright -->
-      <div
-        class="text-center p-4"
-        style="background-color: rgba(0, 0, 0, 0.05)"
-      >
-        © 2023 Copyright:
-        <a class="text-reset fw-bold" href="https://www.itkonnects.com/"
-          >iTKonnects.com</a
-        >
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
       </div>
-      <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
-  </body>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="https://www.itkonnects.com" target="_blank" class="me-4 text-danger" style="text-decoration: none">
+          <i class="fa fa-google me-3 fa-2x"></i>
+        </a>
+        <a href="" class="me-4 text-danger" style="text-decoration: none">
+          <i class="fa fa-instagram me-3 fa-2x"></i>
+        </a>
+        <a href="" class="me-4 text-danger" style="text-decoration: none">
+          <i class="fa fa-linkedin me-3 fa-2x"></i>
+        </a>
+        <a href="" class="me-4 text-danger" style="text-decoration: none">
+          <i class="fa fa-github me-3 fa-2x"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content --><a href="https://www.itkonnects.com" target="_blank" class="active fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>iTKonnects
+            </a>
+            <p>
+              A service oriented non-profit organisation to make it easier
+              connecting with technology
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Projects</h6>
+            <p>
+              <a style="text-decoration: none" href="https://kisanraj.netlify.app" target="_blank"
+                class="text-reset">KisanRaj (A website)</a>
+            </p>
+            <p>
+              <a style="text-decoration: none"
+                href="https://play.google.com/store/apps/details?id=com.iTKonnects.becfrag" target="_blank"
+                class="text-reset">BEC Studo (Android App)</a>
+            </p>
+            <p>
+              <a href="text-reset" style="text-decoration: none;" href="https://tasknet.netlify.app/"
+                target="_blank">Tasknet</a>
+            </p>
+            <p>
+              <a style="text-decoration: none" href="https://www.becstudo.itkonnects.com" target="_blank"
+                class="text-reset">BEC Studo (Website)</a>
+            </p>
+            <p>
+              <a style="text-decoration: none" href="html/becconfessions.html" class="text-reset">
+                BEC Confessions(App)</a>
+            </p>
+            <p>
+              <a style="text-decoration: none" href="https://play.google.com/store/apps/details?id=com.iTKonnects.jotit"
+                target="_blank" class="text-reset">JOT IT (Android App)</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fa fa-home me-3"></i> Bapatla, 522102, A.P</p>
+            <p>
+              <i class="fa fa-envelope me-3"></i>
+              itkonnects@gmail.com
+            </p>
+            <!-- <p><i class="fa fa-phone me-3"></i> +91 63042 14514</p> -->
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+      © 2023 Copyright:<a class="text-reset fw-bold" href="https://www.itkonnects.com/">iTKonnects.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</body>
+
 </html>
