@@ -35,10 +35,22 @@
     .card {
       margin: 20px;
       padding: 10px;
+
+    }
+
+    .carder {
+      width: 20%;
     }
 
     .dropdown:hover .dropdown-menu {
       display: block;
+    }
+
+    .mob {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
     }
 
     #demo {
@@ -46,6 +58,27 @@
       height: 50%;
       margin: auto;
       padding: 20px;
+    }
+
+    p{
+      font-size: 0.9rem;
+    }
+
+    @media screen and (max-width:856px) {
+      .mob {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .carder {
+        width: 80%;
+      }
+
+      .carder {
+        align-items: center;
+      }
+
     }
   </style>
 
@@ -160,29 +193,33 @@
   </nav>
 
   <section class="container">
-    <div style="display: flex;flex-direction: row; justify-content: space-around; flex-wrap: wrap;">
-      <div class="card shadow-lg col-10" style="width: 20%;">
+    <div class="mob">
+      <div class="carder card shadow-lg col-10">
         <div class="card-header bg-success container-fluid">
           <p class="h4 text-white text-center">BEC Studio</p>
         </div>
-        <img style="width: 150px; align-items: center;"
-          src="https://play-lh.googleusercontent.com/GB1_i_I46wgNtzwITnpPNMyU6EW_O7giINmLnIzRYJN6A9bdqxgbJJbRGIkCrKsIBng=w240-h480-rw"
-          class="card-img-top" alt="..." />
-        <div class="card-body">
+        <div class="text-center">
+          <img style="width: 150px; align-items: center;"
+            src="https://play-lh.googleusercontent.com/GB1_i_I46wgNtzwITnpPNMyU6EW_O7giINmLnIzRYJN6A9bdqxgbJJbRGIkCrKsIBng=w240-h480-rw"
+            class="card-img-top" alt="..." />
+        </div>
+        <div class="card-body text-center">
           <h5 class="card-title">Android Application</h5>
           <p class="card-text">For the students of Bapatla Engineering College to help them</p>
           <a href="https://play.google.com/store/apps/details?id=com.iTKonnects.becfrag" class="btn btn-primary">View in
             Play store</a>
         </div>
       </div>
-      <div class="card shadow-lg col-10" style="width: 22%;">
+      <div class="carder card shadow-lg col-10">
         <div class="card-header bg-success container-fluid">
           <p class="h4 text-white text-center">VVPhysics</p>
         </div>
-        <img style="width: 150px; align-items: center;"
-          src="https://play-lh.googleusercontent.com/AbMXhHommPOMguiOi37EJGHWbvzDmPee1X-T-3HECmDCKhhdc4CXBKV5qpePYxrtvA=w240-h480-rw"
-          class="card-img-top" alt="..." />
-        <div class="card-body">
+        <div class="text-center">
+          <img style="width: 150px; align-items: center;"
+            src="https://play-lh.googleusercontent.com/AbMXhHommPOMguiOi37EJGHWbvzDmPee1X-T-3HECmDCKhhdc4CXBKV5qpePYxrtvA=w240-h480-rw"
+            class="card-img-top" alt="..." />
+        </div>
+        <div class="card-body text-center">
           <h5 class="card-title">Android Application</h5>
           <p class="card-text">For Materials from class VIII to class X, DSC, Railways, Navodaya, Police preparations.
           </p>
@@ -190,28 +227,32 @@
             class="btn btn-primary">View in Play store</a>
         </div>
       </div>
-      <div class="card shadow-lg col-10" style="width: 22%;">
+      <div class="carder card shadow-lg col-10">
         <div class="card-header bg-success container-fluid">
           <p class="h4 text-white text-center">JOT IT</p>
         </div>
-        <img style="width: 150px; align-items: center;"
-          src="https://play-lh.googleusercontent.com/QwcqPlI5fphrWK08L7sNGiZrOiw4gyX_eZ6MS1kTC7Jjgav2RZC-Bg9fw6P5P5dpU2E=w240-h480-rw"
-          class="card-img-top" alt="..." />
-        <div class="card-body">
+        <div class="text-center">
+          <img style="width: 150px; align-items: center;"
+            src="https://play-lh.googleusercontent.com/QwcqPlI5fphrWK08L7sNGiZrOiw4gyX_eZ6MS1kTC7Jjgav2RZC-Bg9fw6P5P5dpU2E=w240-h480-rw"
+            class="card-img-top" alt="..." />
+        </div>
+        <div class="card-body text-center">
           <h5 class="card-title">Android Application</h5>
           <p class="card-text">To jot down the daily events, memories, records, notes, or journal along with</p>
           <a href="https://play.google.com/store/apps/details?id=com.iTKonnects.jotit" target="_blank"
             class="btn btn-primary">View in Play store</a>
         </div>
       </div>
-      <div class="card shadow-lg col-10" style="width: 22%;">
+      <div class="carder card shadow-lg col-10">
         <div class="card-header bg-success container-fluid">
           <p class="h4 text-white text-center">Colleagues</p>
         </div>
-        <img style="width: 150px; align-items: center;"
-          src="https://play-lh.googleusercontent.com/Dsd7iSexk391FbyCx2Ou8HXMCgQy-DK0mDUk_OG6quzt_QWotVgUKIM2MJJMMOkqdZE=w240-h480-rw"
-          class="card-img-top" alt="..." />
-        <div class="card-body">
+        <div class="text-center">
+          <img style="width: 150px; align-items: center;"
+            src="https://play-lh.googleusercontent.com/Dsd7iSexk391FbyCx2Ou8HXMCgQy-DK0mDUk_OG6quzt_QWotVgUKIM2MJJMMOkqdZE=w240-h480-rw"
+            class="card-img-top" alt="..." />
+        </div>
+        <div class="card-body text-center">
           <h5 class="card-title">Android Application</h5>
           <p class="card-text">Designed exclusively for employees to interact with Colleagues</p>
           <a href="https://play.google.com/store/apps/details?id=com.itkonnects.mycolleagues" target="_blank"
