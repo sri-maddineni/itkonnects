@@ -4,6 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="BEC Confessions - Safely and anonymously express your feelings. A secure, private platform for Bapatla Engineering College students to share confessions and connect." />
+  <meta property="og:title" content="BEC Confessions - Anonymous Student Platform | iTKonnects" />
+  <meta property="og:description"
+    content="Express your feelings anonymously and securely. Join BEC Confessions, a safe space for Bapatla Engineering College students." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.itkonnects.com/html/becconfessions.html" />
+  <meta property="og:image" content="../images/confession.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BEC Confessions - Anonymous Student Platform | iTKonnects" />
+  <meta name="twitter:description"
+    content="Express your feelings anonymously and securely. Join BEC Confessions, a safe space for Bapatla Engineering College students." />
+  <meta name="twitter:image" content="../images/confession.png" />
 
   <title>iTKonnects</title>
 
@@ -14,6 +27,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -30,7 +44,6 @@
     }
 
     .cs {
-
       width: 80%;
     }
 
@@ -50,7 +63,6 @@
     <h1 class="mt-3">iTKonnects</h1>
   </header>
 
-
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="--bs-bg-opacity: .8;">
     <div class="container-fluid ">
       <a class="navbar-brand text-warning" href="../index.html">Home</a>
@@ -60,28 +72,84 @@
       </button>
       <div class="collapse navbar-collapse" id="navi">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active p-3" aria-current="page" href="#">About</a>
+          <li class="nav-item dropdown"><a class="nav-link text-white p-3 disabled" href="#"
+              data-bs-toggle="dropdown">Apps</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.iTKonnects.becfrag"
+                  target="_blank" rel="noopener noreferrer">BEC Studo</a></li>
+              <li><a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.itkonnects.vvphysics"
+                  target="_blank" rel="noopener noreferrer">VVPhysics</a></li>
+              <li><a class="dropdown-item"
+                  href="https://play.google.com/store/apps/details?id=com.itkonnects.mycolleagues" target="_blank"
+                  rel="noopener noreferrer">Colleagues</a></li>
+              <li><a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.iTKonnects.jotit"
+                  target="_blank" rel="noopener noreferrer">JOT IT</a></li>
+              <li><a class="dropdown-item" href="becconfessions.html">BEC Confessions</a></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active p-3" aria-current="page" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active p-3" aria-current="page" href="https://in.itkonnects.com/contact">Contact</a>
+          <li class="nav-item dropdown"><a class="nav-link text-white p-3" href="#" data-bs-toggle="dropdown">Web
+              Projects & Websites</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://college-shortlister.netlify.app/" target="_blank"
+                  rel="noopener noreferrer">College Shortlister</a></li>
+              <li><a class="dropdown-item" href="https://docusave.netlify.app/" target="_blank"
+                  rel="noopener noreferrer">DocuSave</a></li>
+              <li><a class="dropdown-item" href="https://santhinikethanhighschool.netlify.app/" target="_blank"
+                  rel="noopener noreferrer">Santhinikethan High School ERP</a></li>
+              <li><a class="dropdown-item" href="https://jnvfamily.netlify.app/" target="_blank"
+                  rel="noopener noreferrer">JNV Alumni Portal</a></li>
+              <li><a class="dropdown-item" href="https://exposeyourself.netlify.app/" target="_blank"
+                  rel="noopener noreferrer">Expose Yourself</a></li>
+              <li><a class="dropdown-item" href="https://alphaemhighschool.netlify.app/" target="_blank"
+                  rel="noopener noreferrer">Alpha EM High School ERP</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="https://kisanraj.netlify.app" target="_blank"
+                  rel="noopener noreferrer">KisanRaj</a></li>
+              <li><a class="dropdown-item" href="https://www.becstudo.itkonnects.com" target="_blank"
+                  rel="noopener noreferrer">BEC Studo Website</a></li>
+              <li><a class="dropdown-item" href="https://www.colleagues.itkonnects.com" target="_blank"
+                  rel="noopener noreferrer">Colleagues Website</a></li>
+              <li><a class="dropdown-item" href="https://www.sriharimaddineni.itkonnects.com" target="_blank"
+                  rel="noopener noreferrer">My Portfolio</a></li>
+              <li><a class="dropdown-item" href="https://www.gitrepos.itkonnects.com" target="_blank"
+                  rel="noopener noreferrer">GitRepos</a></li>
+            </ul>
           </li>
         </ul>
-
+        <ul class="navbar-nav p-2">
+          <li class="nav-item dropdown active"><a class="nav-link me-auto text-white p-2 disabled" href="#"
+              data-bs-toggle="dropdown">About</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://sriharimaddineniportfolio.itkonnects.com" target="_blank"
+                  rel="noopener noreferrer">Developer</a></li>
+              <a class="dropdown-item" href="https://in.itkonnects.com" target="_blank"
+                rel="noopener noreferrer">iTKonnects</a>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav p-2">
+          <li class="nav-item dropdown active"><a class="nav-link me-auto text-white p-2"
+              href="https://in.itkonnects.com/contact" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
+        </ul>
       </div>
     </div>
   </nav>
 
+  <div class="container my-4">
+    <div class="alert alert-info text-center" role="alert">
+      <strong>BEC Confessions</strong> is your safe, anonymous space to share thoughts, feelings, and experiences. Built
+      for Bapatla Engineering College students, it ensures privacy and security while fostering connection and support.
+    </div>
+  </div>
 
 
   <div class="card shadow-lg  col-12 offset-md-3 text-center cc my-3 col-md-12 col-sm-12" style="max-width: 600px;">
     <div class="card-header  bg-success container-fluid">
       <p class="h4 ">BEC Confessions</p>
     </div>
-    <img src="../images/confession.png" class="card-img-top img-fluid cs" alt="...">
+    <img src="../images/confession.png" class="card-img-top img-fluid cs" alt="Anonymous Confession App Screenshot">
     <div class="card-body">
       <h5 class="card-title ">Android Application
       </h5>
@@ -112,88 +180,77 @@
         <span>Get connected with us on social networks:</span>
       </div>
       <!-- Left -->
-
       <!-- Right -->
       <div>
-        <a href="https://www.in.itkonnects.com" class="me-4 text-danger" style="text-decoration: none">
+        <a href="https://www.in.itkonnects.com" class="me-4 text-danger" style="text-decoration: none" target="_blank"
+          rel="noopener noreferrer">
           <i class="fa fa-google me-3 fa-2x"></i>
         </a>
-        <a href="" class="me-4 text-danger" style="text-decoration: none">
+        <a href="#" class="me-4 text-danger" style="text-decoration: none" target="_blank" rel="noopener noreferrer">
           <i class="fa fa-instagram me-3 fa-2x"></i>
         </a>
         <a href="https://www.linkedin.com/in/srihari-maddineni" target="_blank" class="me-4 text-danger"
-          style="text-decoration: none">
+          style="text-decoration: none" rel="noopener noreferrer">
           <i class="fa fa-linkedin me-3 fa-2x"></i>
         </a>
-        <a href="" class="me-4 text-danger" style="text-decoration: none">
+        <a href="#" class="me-4 text-danger" style="text-decoration: none" target="_blank" rel="noopener noreferrer">
           <i class="fa fa-github me-3 fa-2x"></i>
         </a>
       </div>
       <!-- Right -->
     </section>
     <!-- Section: Social media -->
-
-    <!-- Section: Links  -->
     <section class="">
       <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
         <div class="row mt-3">
-          <!-- Grid column -->
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content --><a href="https://www.itkonnects.com" target="_blank" class="active fw-bold mb-4">
+            <a href="https://www.itkonnects.com" target="_blank" class="active fw-bold mb-4" rel="noopener noreferrer">
               <i class="fas fa-gem me-3"></i>iTKonnects
             </a>
-            <p>
-              A service oriented non-profit organisation to make it easier
-              connecting with technology
-            </p>
+            <p>A service oriented non-profit organisation to make it easier connecting with technology</p>
           </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <h6 class="text-uppercase fw-bold mb-4">Apps</h6>
-            <p>
-              <a style="text-decoration: none"
+            <p><a style="text-decoration: none"
                 href="https://play.google.com/store/apps/details?id=com.iTKonnects.becfrag" target="_blank"
-                class="text-reset">BEC Studo</a>
-            </p>
-            <p>
-              <a style="text-decoration: none"
+                class="text-reset" rel="noopener noreferrer">BEC Studo</a></p>
+            <p><a style="text-decoration: none"
                 href="https://play.google.com/store/apps/details?id=com.itkonnects.vvphysics" target="_blank"
-                class="text-reset">VVPhysics</a>
-            </p>
-            <p>
-              <a style="text-decoration: none" href="https://play.google.com/store/apps/details?id=com.iTKonnects.jotit"
-                target="_blank" class="text-reset">JOT IT</a>
-            </p>
-            <p>
-              <a style="text-decoration: none" href="html/becconfessions.html" class="text-reset">
-                BEC Confessions</a>
-            </p>
+                class="text-reset" rel="noopener noreferrer">VVPhysics</a></p>
+            <p><a style="text-decoration: none"
+                href="https://play.google.com/store/apps/details?id=com.itkonnects.mycolleagues" target="_blank"
+                class="text-reset" rel="noopener noreferrer">Colleagues</a></p>
+            <p><a style="text-decoration: none"
+                href="https://play.google.com/store/apps/details?id=com.iTKonnects.jotit" target="_blank"
+                class="text-reset" rel="noopener noreferrer">JOT IT</a></p>
+            <p><a style="text-decoration: none" href="becconfessions.html" class="text-reset">BEC Confessions</a></p>
           </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Websites</h6>
-            <p>
-              <a style="text-decoration: none" href="https://www.becstudo.itkonnects.com" target="_blank"
-                class="text-reset">BEC Studo</a>
-            </p>
-            <p>
-              <a style="text-decoration: none" href="https://kisanraj.netlify.app" target="_blank"
-                class="text-reset">KisanRaj</a>
-            </p>
-
-
-
-
-
-
-
-
+            <h6 class="text-uppercase fw-bold mb-4">Web Projects & Websites</h6>
+            <p><a style="text-decoration: none" href="https://college-shortlister.netlify.app/" target="_blank"
+                class="text-reset" rel="noopener noreferrer">College Shortlister</a></p>
+            <p><a style="text-decoration: none" href="https://docusave.netlify.app/" target="_blank" class="text-reset"
+                rel="noopener noreferrer">DocuSave</a></p>
+            <p><a style="text-decoration: none" href="https://santhinikethanhighschool.netlify.app/" target="_blank"
+                class="text-reset" rel="noopener noreferrer">Santhinikethan High School ERP</a></p>
+            <p><a style="text-decoration: none" href="https://jnvfamily.netlify.app/" target="_blank" class="text-reset"
+                rel="noopener noreferrer">JNV Alumni Portal</a></p>
+            <p><a style="text-decoration: none" href="https://exposeyourself.netlify.app/" target="_blank"
+                class="text-reset" rel="noopener noreferrer">Expose Yourself</a></p>
+            <p><a style="text-decoration: none" href="https://alphaemhighschool.netlify.app/" target="_blank"
+                class="text-reset" rel="noopener noreferrer">Alpha EM High School ERP</a></p>
+            <hr>
+            <p><a style="text-decoration: none" href="https://kisanraj.netlify.app" target="_blank" class="text-reset"
+                rel="noopener noreferrer">KisanRaj</a></p>
+            <p><a style="text-decoration: none" href="https://www.becstudo.itkonnects.com" target="_blank"
+                class="text-reset" rel="noopener noreferrer">BEC Studo Website</a></p>
+            <p><a style="text-decoration: none" href="https://www.colleagues.itkonnects.com" target="_blank"
+                class="text-reset" rel="noopener noreferrer">Colleagues Website</a></p>
+            <p><a style="text-decoration: none" href="https://www.sriharimaddineni.itkonnects.com" target="_blank"
+                class="text-reset" rel="noopener noreferrer">My Portfolio</a></p>
+            <p><a style="text-decoration: none" href="https://www.gitrepos.itkonnects.com" target="_blank"
+                class="text-reset" rel="noopener noreferrer">GitRepos</a></p>
           </div>
-          <!-- Grid column -->
-
           <!-- Grid column -->
 
           <!-- Grid column -->
@@ -226,8 +283,26 @@
   </footer>
   <!-- Footer -->
 
-
-
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "BEC Confessions",
+      "url": "https://www.itkonnects.com/html/becconfessions.html",
+      "applicationCategory": "Social Networking",
+      "operatingSystem": "Android",
+      "description": "A secure, anonymous platform for Bapatla Engineering College students to share confessions and connect.",
+      "creator": {
+        "@type": "Organization",
+        "name": "iTKonnects"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      }
+    }
+  </script>
 
 </body>
 
