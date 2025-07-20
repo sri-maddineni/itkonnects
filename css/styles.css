@@ -51,6 +51,94 @@
     justify-content: center;
 }
 
+/* Web Projects Section Styles */
+.web-projects-section {
+    background: linear-gradient(135deg, #f8fafc 60%, #e0e7ff 100%);
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.project-card {
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    min-height: 420px;
+    max-height: 520px;
+}
+
+.project-card .card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.project-card .btn {
+    margin-top: auto;
+}
+
+.project-card:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.project-header {
+    padding: 1rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: linear-gradient(90deg, #f43f5e, #a21caf);
+}
+
+.project-badges {
+    margin-bottom: 0.5rem;
+}
+
+.project-badges .badge {
+    margin-right: 0.3rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.85em;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+@media (max-width: 992px) {
+    .project-card {
+        height: 420px;
+        min-height: 340px;
+        max-height: 480px;
+    }
+}
+
+@media (max-width: 768px) {
+    .web-projects-section {
+        padding: 1rem 0.2rem;
+        border-radius: 0.5rem;
+    }
+
+    .project-card {
+        border-radius: 0.7rem;
+        height: auto;
+        min-height: unset;
+        max-height: unset;
+    }
+
+    .project-header {
+        font-size: 1rem;
+        border-top-left-radius: 0.7rem;
+        border-top-right-radius: 0.7rem;
+    }
+}
+
 @media screen and (max-width: 856px) {
     .mob {
         display: flex;
